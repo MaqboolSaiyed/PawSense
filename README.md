@@ -21,11 +21,18 @@ This web application analyzes uploaded images of dogs to predict their emotional
 * **Dataset:** Dog Emotion Dataset (Kaggle) [cite: 3]
 
 ## 📂 Project Structure
+
+```plaintext
+pawsense-project/
 ├── backend/
 │   ├── app.py             # Flask application
 │   └── requirements.txt   # Backend dependencies
-└── frontend/
-└── ...                # React components, styles, etc.
+├── frontend/
+│   ├── public/
+│   ├── src/               # React components, styles, etc.
+│   ├── package.json
+│   └── ...                # Other frontend files (config, etc.)
+└── README.md              # This file
 
 ## 🚀 Getting Started
 
