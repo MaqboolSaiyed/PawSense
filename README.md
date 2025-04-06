@@ -1,12 +1,17 @@
 # 🐾 PawSense: AI-Powered Dog Emotion Recognition 🐶
 
+[![Flask Badge](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)]()
+[![React Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)]()
+[![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
+
 **Ever wondered what your furry friend is *really* feeling? PawSense uses the power of AI to decode dog emotions from images!**
 
-This web application analyzes uploaded images of dogs to predict their emotional state, classifying them into four categories: **Angry**, **Happy**, **Relaxed**, or **Sad**[cite: 5].
+This web application analyzes uploaded images of dogs to predict their emotional state, classifying them into four categories: **Angry**, **Happy**, **Relaxed**, or **Sad**.
 
 ## ✨ Features
 
-* **🧠 AI Emotion Analysis:** Leverages a deep learning model (fine-tuned MobileNet [cite: 5, 6]) trained on a specialized dataset [cite: 3] to predict dog emotions.
+* **🧠 AI Emotion Analysis:** Leverages a deep learning model (fine-tuned MobileNet) trained on a specialized dataset to predict dog emotions.
 * **⬆️ Easy Image Upload:** Simple drag-and-drop or click-to-upload interface.
 * **📊 Confidence Scores:** Displays the model's confidence level for each potential emotion.
 * **🚀 Real-time Feedback:** Quick analysis and display of results.
@@ -15,10 +20,10 @@ This web application analyzes uploaded images of dogs to predict their emotional
 
 ## 🛠️ Technology Stack
 
-* **Backend:** Flask[cite: 1], Python
+* **Backend:** Flask, Python
 * **Frontend:** React, Tailwind CSS
-* **Machine Learning:** TensorFlow[cite: 2], Keras, MobileNet[cite: 5], NumPy, Pillow
-* **Dataset:** Dog Emotion Dataset (Kaggle) [cite: 3]
+* **Machine Learning:** TensorFlow, Keras, MobileNet, NumPy, Pillow
+* **Dataset:** Dog Emotion Dataset (Kaggle)
 
 ## 📂 Project Structure
 
@@ -33,6 +38,8 @@ pawsense-project/
 │   ├── package.json
 │   └── ...                # Other frontend files (config, etc.)
 └── README.md              # This file
+
+```
 
 ## 🚀 Getting Started
 
